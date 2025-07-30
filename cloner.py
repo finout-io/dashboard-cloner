@@ -98,7 +98,7 @@ def create_widgets(account_id, source_widgets):
     return new_widgets_layout
 
 
-# === STEP 4: Patch dashboard layout ===
+# === STEP 4: Put dashboard layout ===
 def update_dashboard_layout(account_id, dashboard_id, widgets_layout):
     headers = {
         "authorized-user-roles": "sysAdmin",

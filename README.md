@@ -11,9 +11,18 @@
 
 ## Installation
 
-Clone the repository
-Install the required packages using pip:
+Clone the repository:
+   ```sh
+   git clone https://github.com/finout-io/dashboard-cloner.git
+   cd dashboard-cloner
+   ```
 
+Create a virtual environment:
+   ```sh
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
@@ -22,25 +31,23 @@ Install the required packages using pip:
 
 To run the application, use the following command:
 
-```sh
-streamlit run app.py
-```
+   ```sh
+   streamlit run app.py
+   ```
 
-## Form Fields
-
-- **Source Account ID**: Account ID of the source you want to clone **from**.
-- **Source Dashboard ID**: ID of Dashboard you want to clone.
-- **Target Account ID**: Account ID of the target you want to clone **to**
-- **New Dashboard Name**: Name your new dashboard
-
-## Usage
-
+# How to:
 1. **Connect to VPN**
 2. **Fill Out the Form**: Enter values for all fields.
 3. **Submit the Form**: Click the "Submit" button to submit the form.
 4. **Validate in Finout**: Once submitted with a success message, check the **target** finout tenant for the cloned dashboard.
 
+## Form Field Details
+- **Source Account ID**: Account ID of the source you want to clone **from**.
+- **Source Dashboard ID**: ID of Dashboard you want to clone.
+- **Target Account ID**: Account ID of the target you want to clone **to**
+- **New Dashboard Name**: Name your new dashboard
 
-## Issues and Contributions
+<br/>
+# Issues and Contributions
 
 If you encounter any issues, feel free to open an issue in the repository. Contributions are welcome to improve the project.
