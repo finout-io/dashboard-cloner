@@ -1,6 +1,6 @@
 # Finout Dashboard Cloner
 
-   This project is a Streamlit application that allows users to quickly clone dashboards to other accounts, maintaining all relevent widgets and placement.
+   This project is a Streamlit application that allows users to quickly clone dashboards to other accounts, maintaining all relevent widgets and placement. If you clone a dashboard with account specific virtual tags, unit economics and other metrics, the dashboard will clone successfully, but it will either show no data in those widgets or throw a warning on the dashboard that it was unable to load. For these cases, you will need to either delete the unnesesary widgets or edit them with the accounts metrics you cloned into.
 
    ![Alt text](assets/cloner.png "1")
 
@@ -41,13 +41,12 @@ To run the application, use the following command:
 3. **Submit the Form**: Click the "Submit" button to submit the form.
 4. **Validate in Finout**: Once submitted with a success message, check the **target** finout tenant for the cloned dashboard.
 
-## Form Field Details
+### Form Field Details
 - **Source Account ID**: Account ID of the source you want to clone **from**.
 - **Source Dashboard ID**: ID of Dashboard you want to clone.
 - **Target Account ID**: Account ID of the target you want to clone **to**
 - **New Dashboard Name**: Name your new dashboard
 
-<br/>
 # Issues and Contributions
 
 If you encounter any issues, feel free to open an issue in the repository. Contributions are welcome to improve the project.
