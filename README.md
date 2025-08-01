@@ -32,7 +32,7 @@ Install dependencies:
 To run the application, use the following command:
 
    ```sh
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 # How to:
